@@ -3,7 +3,7 @@
 
 Obten los permisos de root
 
-`$ su`
+`su`
 
 Copia el fichero `linux.sh` en tu compurador
 
