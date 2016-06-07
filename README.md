@@ -22,6 +22,8 @@ Ahora ejecuta el archivo
 
 Y debes decir si a todo
 
+Por el momento esta listo par Fedora 23, pronto para las otras versiones
+
 
 
 
