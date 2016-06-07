@@ -14,6 +14,7 @@ Dale permisos de ejecución a linux.sh
 `
 chmod +x linux.sh
 `
+
 Ahora ejecuta el archivo
 
 `
