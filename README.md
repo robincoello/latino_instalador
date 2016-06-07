@@ -7,7 +7,7 @@ Obten los permisos de root
 
 Copia el fichero `linux.sh` en tu compurador
 
-`wget https://github.com/robincoello/latino_instalador.git`
+`wget https://github.com/robincoello/latino_instalador/blob/master/linux.sh`
 
 Dale permisos de ejecución a linux.sh
 
