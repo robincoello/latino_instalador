@@ -14,6 +14,8 @@ DPKG_RECONFIGURE=/usr/sbin/dpkg-reconfigure
 # si la instalada es < solo actualizar
 # si la instalada es = mensaje que ya esta instalado
 # si la instalada es > mensaje de no instalar
+# reducir a lo minimo, quitando los archivos que no son las tripas
+# borrar al final el archivo temporal
 
 
 
