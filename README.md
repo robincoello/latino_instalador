@@ -19,6 +19,7 @@ Ahora ejecuta el archivo
 `
 ./linux.sh
 `
+
 Y debes decir si a todo
 
 
