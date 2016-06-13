@@ -10,6 +10,7 @@ Copia el contenido del fichero `linux.sh` en tu compurador
 `
 git clone https://github.com/robincoello/latino_instalador.git
 `
+
 Entra en la capeta creada
 
 `
