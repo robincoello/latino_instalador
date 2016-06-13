@@ -7,6 +7,9 @@ Obten los permisos de root
 
 Copia el contenido del fichero `linux.sh` en tu compurador
 
+`
+git clone https://github.com/robincoello/latino_instalador.git
+`
 
 Dale permisos de ejecución a linux.sh
 
