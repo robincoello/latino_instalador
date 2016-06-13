@@ -5,7 +5,7 @@ Obten los permisos de root
 
 `su`
 
-Copia el contenido del fichero `linux.sh` en tu compurador
+Copia el contenido del instalador en tu compu
 
 `
 git clone https://github.com/robincoello/latino_instalador.git
