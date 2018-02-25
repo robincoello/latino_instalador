@@ -50,7 +50,7 @@ if [ "${FEDORA_VERSION_FILE}" > "23" ]
 then
     
     ${ECHO} "**********************************"
-    ${ECHO} "******   Latino 0.5.0   **********"
+    ${ECHO} "******   Latino   **********"
     ${ECHO} "* http://www.lengueje-latino.org *"
     ${ECHO} "* Fedora 23 "
 	${ECHO} "**********************************"
@@ -61,7 +61,7 @@ then
     ${DNF} install cmake
     ${DNF} groupinstall "Development Tools" "Development Libraries"
     
-    git clone https://github.com/robincoello/latino.git
+    git clone https://github.com/primitivorm/latino.git
     
     cd latino
     cmake .
