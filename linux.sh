@@ -19,7 +19,7 @@ DPKG_RECONFIGURE=/usr/sbin/dpkg-reconfigure
 
 
 
-MSG_APT_TITLE="Instalar Latino 0.5.0"
+MSG_APT_TITLE="Instalar Latino"
 MSG_APT_WARN="Hola,\n\n Vamos a instalar latino\n\nDeseas continuar?"
 
 if [ $(id -u) != 0 ] 
@@ -50,16 +50,16 @@ if [ "${FEDORA_VERSION_FILE}" > "23" ]
 then
     
     ${ECHO} "**********************************"
-    ${ECHO} "******   Latino   **********"
+    ${ECHO} "************   Latino   **********"
     ${ECHO} "* http://www.lengueje-latino.org *"
-    ${ECHO} "* Fedora 23 "
+    ${ECHO} "* Fedora"
 	${ECHO} "**********************************"
     ${ECHO} ""
     ${DNF} update
     ${DNF} installgit
-    ${DNF} install make automake gcc gcc-c++ kernel-devel
-    ${DNF} install cmake
-    ${DNF} groupinstall "Development Tools" "Development Libraries"
+    ${DNF} install make automake gcc gcc-c++ kernel-devel -y
+    ${DNF} install cmake -y
+    ${DNF} groupinstall "Development Tools" "Development Libraries" -y
     
     git clone https://github.com/primitivorm/latino.git
     
